@@ -1,0 +1,29 @@
+Signal container-updater  pid: 19940  signal: 15
+Signal account-auditor  pid: 19941  signal: 15
+Signal object-replicator  pid: 19942  signal: 15
+No proxy-server running
+Signal container-replicator  pid: 19944  signal: 15
+Signal object-auditor  pid: 19945  signal: 15
+No object-expirer running
+Signal container-auditor  pid: 19946  signal: 15
+No container-server running
+No account-server running
+Signal account-reaper  pid: 19949  signal: 15
+Signal container-sync  pid: 19950  signal: 15
+Signal account-replicator  pid: 19951  signal: 15
+Signal object-updater  pid: 19952  signal: 15
+No object-server running
+container-updater (19940) appears to have stopped
+account-auditor (19941) appears to have stopped
+object-replicator (19942) appears to have stopped
+container-replicator (19944) appears to have stopped
+object-auditor (19945) appears to have stopped
+container-auditor (19946) appears to have stopped
+account-reaper (19949) appears to have stopped
+account-replicator (19951) appears to have stopped
+container-sync (19950) appears to have stopped
+object-updater (19952) appears to have stopped
+tgt stop/waiting
+tgtd seems to be in a bad state, restarting...
+tgt start/running, process 6874
+tgt stop/waiting

@@ -1,0 +1,30 @@
+Signal container-updater  pid: 17490  signal: 15
+Signal account-auditor  pid: 17491  signal: 15
+Signal object-replicator  pid: 17492  signal: 15
+No proxy-server running
+Signal container-replicator  pid: 17494  signal: 15
+Signal object-auditor  pid: 17495  signal: 15
+No object-expirer running
+Signal container-auditor  pid: 17496  signal: 15
+No container-server running
+No account-server running
+Signal account-reaper  pid: 17499  signal: 15
+Signal container-sync  pid: 17500  signal: 15
+Signal account-replicator  pid: 17501  signal: 15
+Signal object-updater  pid: 17502  signal: 15
+No object-server running
+container-updater (17490) appears to have stopped
+account-auditor (17491) appears to have stopped
+object-auditor (17495) appears to have stopped
+container-auditor (17496) appears to have stopped
+account-reaper (17499) appears to have stopped
+container-sync (17500) appears to have stopped
+object-replicator (17492) appears to have stopped
+container-replicator (17494) appears to have stopped
+account-replicator (17501) appears to have stopped
+object-updater (17502) appears to have stopped
+tgt stop/waiting
+tgtd seems to be in a bad state, restarting...
+tgt start/running, process 9866
+tgt stop/waiting
+  Logical volume "volume-f5756e99-97c4-473c-8770-0895a66c93bc" successfully removed

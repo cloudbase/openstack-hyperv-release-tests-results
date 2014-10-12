@@ -1,0 +1,160 @@
+Running tests from: /tmp/fileg1Rfzn
+Test runner 1 is starting tests from 1 to 6 out of 99:
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestJSON.test_delete_image_metadata_item[gate]
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestJSON.test_get_image_metadata_item[gate]
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestJSON.test_list_image_metadata[gate]
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestJSON.test_set_image_metadata[gate]
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestJSON.test_set_image_metadata_item[gate]
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestJSON.test_update_image_metadata[gate]
+
+Test runner 2 is starting tests from 7 to 12 out of 99:
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestXML.test_delete_image_metadata_item[gate]
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestXML.test_get_image_metadata_item[gate]
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestXML.test_list_image_metadata[gate]
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestXML.test_set_image_metadata[gate]
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestXML.test_set_image_metadata_item[gate]
+tempest.api.compute.images.test_image_metadata.ImagesMetadataTestXML.test_update_image_metadata[gate]
+
+Test runner 3 is starting tests from 13 to 18 out of 99:
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestJSON.test_delete_nonexistent_image_metadata_item[gate,negative]
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestJSON.test_get_nonexistent_image_metadata_item[gate,negative]
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestJSON.test_list_nonexistent_image_metadata[gate,negative]
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestJSON.test_set_nonexistent_image_metadata[gate,negative]
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestJSON.test_set_nonexistent_image_metadata_item[gate,negative]
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestJSON.test_update_nonexistent_image_metadata[gate,negative]
+
+Test runner 6 is starting tests from 19 to 24 out of 99:
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestXML.test_delete_nonexistent_image_metadata_item[gate,negative]
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestXML.test_get_nonexistent_image_metadata_item[gate,negative]
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestXML.test_list_nonexistent_image_metadata[gate,negative]
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestXML.test_set_nonexistent_image_metadata[gate,negative]
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestXML.test_set_nonexistent_image_metadata_item[gate,negative]
+tempest.api.compute.images.test_image_metadata_negative.ImagesMetadataTestXML.test_update_nonexistent_image_metadata[gate,negative]
+
+Test runner 4 is starting tests from 25 to 25 out of 99:
+tempest.api.compute.images.test_images.ImagesTestJSON.test_delete_saving_image[gate]
+
+Test runner 8 is starting tests from 26 to 26 out of 99:
+tempest.api.compute.images.test_images.ImagesTestXML.test_delete_saving_image[gate]
+
+Test runner 5 is starting tests from 27 to 37 out of 99:
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_create_image_from_deleted_server[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_create_image_from_invalid_server[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_create_image_from_stopped_server[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_create_image_specify_uuid_35_characters_or_less[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_create_image_specify_uuid_37_characters_or_more[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_delete_image_blank_id[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_delete_image_id_is_over_35_character_limit[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_delete_image_negative_image_id[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_delete_image_non_hex_string_id[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_delete_image_with_invalid_image_id[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestJSON.test_delete_non_existent_image[gate,negative]
+
+Test runner 7 is starting tests from 38 to 48 out of 99:
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_create_image_from_deleted_server[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_create_image_from_invalid_server[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_create_image_from_stopped_server[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_create_image_specify_uuid_35_characters_or_less[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_create_image_specify_uuid_37_characters_or_more[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_delete_image_blank_id[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_delete_image_id_is_over_35_character_limit[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_delete_image_negative_image_id[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_delete_image_non_hex_string_id[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_delete_image_with_invalid_image_id[gate,negative]
+tempest.api.compute.images.test_images_negative.ImagesNegativeTestXML.test_delete_non_existent_image[gate,negative]
+
+Test runner 6 finished tests from 19 to 24 out of 99 with exit code: 0
+Test runner 6 is starting tests from 49 to 50 out of 99:
+tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON.test_create_delete_image[gate,smoke]
+tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON.test_create_image_specify_multibyte_character_image_name[gate]
+
+Test runner 3 finished tests from 13 to 18 out of 99 with exit code: 0
+Test runner 3 is starting tests from 51 to 52 out of 99:
+tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestXML.test_create_delete_image[gate,smoke]
+tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestXML.test_create_image_specify_multibyte_character_image_name[gate]
+
+Test runner 2 finished tests from 7 to 12 out of 99 with exit code: 0
+Test runner 2 is starting tests from 53 to 58 out of 99:
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestJSON.test_create_image_specify_invalid_metadata[gate,negative]
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestJSON.test_create_image_specify_metadata_over_limits[gate,negative]
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestJSON.test_create_image_specify_multibyte_character_image_name[gate,negative]
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestJSON.test_create_image_specify_name_over_256_chars[gate,negative]
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestJSON.test_create_second_image_when_first_image_is_being_saved[gate,negative]
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestJSON.test_delete_image_that_is_not_yet_active[gate,negative]
+
+Test runner 1 finished tests from 1 to 6 out of 99 with exit code: 0
+Test runner 1 is starting tests from 59 to 64 out of 99:
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestXML.test_create_image_specify_invalid_metadata[gate,negative]
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestXML.test_create_image_specify_metadata_over_limits[gate,negative]
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestXML.test_create_image_specify_multibyte_character_image_name[gate,negative]
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestXML.test_create_image_specify_name_over_256_chars[gate,negative]
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestXML.test_create_second_image_when_first_image_is_being_saved[gate,negative]
+tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestXML.test_delete_image_that_is_not_yet_active[gate,negative]
+
+Test runner 8 finished tests from 26 to 26 out of 99 with exit code: 0
+Test runner 8 is starting tests from 65 to 77 out of 99:
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_name[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_server_ref[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_status[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_type[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_limit_results[gate]
+
+Test runner 4 finished tests from 25 to 25 out of 99 with exit code: 0
+Test runner 4 is starting tests from 78 to 90 out of 99:
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_filter_by_changes_since[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_filter_by_name[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_filter_by_server_id[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_filter_by_server_ref[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_filter_by_status[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_filter_by_type[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_limit_results[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_with_detail_filter_by_changes_since[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_with_detail_filter_by_name[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_with_detail_filter_by_server_ref[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_with_detail_filter_by_status[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_with_detail_filter_by_type[gate]
+tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestXML.test_list_images_with_detail_limit_results[gate]
+
+Test runner 7 finished tests from 38 to 48 out of 99 with exit code: 0
+Test runner 7 is starting tests from 91 to 91 out of 99:
+tempest.api.compute.images.test_list_image_filters_negative.ListImageFiltersNegativeTestJSON.test_get_nonexistent_image[gate,negative]
+
+Test runner 7 finished tests from 91 to 91 out of 99 with exit code: 0
+Test runner 7 is starting tests from 92 to 92 out of 99:
+tempest.api.compute.images.test_list_image_filters_negative.ListImageFiltersNegativeTestXML.test_get_nonexistent_image[gate,negative]
+
+Test runner 7 finished tests from 92 to 92 out of 99 with exit code: 0
+Test runner 7 is starting tests from 93 to 95 out of 99:
+tempest.api.compute.images.test_list_images.ListImagesTestJSON.test_get_image[gate,smoke]
+tempest.api.compute.images.test_list_images.ListImagesTestJSON.test_list_images[gate,smoke]
+tempest.api.compute.images.test_list_images.ListImagesTestJSON.test_list_images_with_detail[gate,smoke]
+
+Test runner 3 finished tests from 51 to 52 out of 99 with exit code: 0
+Test runner 3 is starting tests from 96 to 98 out of 99:
+tempest.api.compute.images.test_list_images.ListImagesTestXML.test_get_image[gate,smoke]
+tempest.api.compute.images.test_list_images.ListImagesTestXML.test_list_images[gate,smoke]
+tempest.api.compute.images.test_list_images.ListImagesTestXML.test_list_images_with_detail[gate,smoke]
+
+Test runner 7 finished tests from 93 to 95 out of 99 with exit code: 0
+Test runner 7 is starting tests from 99 to 99 out of 99:
+tempest.scenario.test_minimum_basic.TestMinimumBasicScenario.test_minimum_basic_scenario[compute,image,network,volume]
+
+Test runner 3 finished tests from 96 to 98 out of 99 with exit code: 0
+Test runner 5 finished tests from 27 to 37 out of 99 with exit code: 0
+Test runner 2 finished tests from 53 to 58 out of 99 with exit code: 0
+Test runner 1 finished tests from 59 to 64 out of 99 with exit code: 0
+Test runner 4 finished tests from 78 to 90 out of 99 with exit code: 0
+Test runner 6 finished tests from 49 to 50 out of 99 with exit code: 0
+Test runner 8 finished tests from 65 to 77 out of 99 with exit code: 0
+Test runner 7 finished tests from 99 to 99 out of 99 with exit code: 0
+Test execution completed in 463 seconds.
+Generating HTML report...
+Total execution time: 467 seconds.

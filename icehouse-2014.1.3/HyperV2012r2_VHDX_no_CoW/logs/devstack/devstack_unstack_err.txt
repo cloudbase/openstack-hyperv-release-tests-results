@@ -1,0 +1,5 @@
+ERROR: Site keystone does not exist!
+tgtadm: can't send the request to the tgt daemon, Transport endpoint is not connected
+stop: Unknown instance: 
+/home/cloudbase/devstack/lib/neutron: line 520: 19836 Killed                  sudo pkill -9 -f neutron-ns-metadata-proxy
+kill: No such process

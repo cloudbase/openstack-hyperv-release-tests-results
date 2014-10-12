@@ -1,0 +1,8 @@
+ERROR: Site keystone does not exist!
+tgtadm: can't send the request to the tgt daemon, Transport endpoint is not connected
+stop: Unknown instance: 
+  Limit for the maximum number of semaphores reached. You can check and set the limits in /proc/sys/kernel/sem.
+  Unable to deactivate stack--volumes-volume--f4fa7087--167c--4143--b9dd--5233da43f75d (252:3)
+  Unable to deactivate logical volume "volume-f4fa7087-167c-4143-b9dd-5233da43f75d"
+/home/cloudbase/devstack/lib/neutron: line 520:  5749 Killed                  sudo pkill -9 -f neutron-ns-metadata-proxy
+kill: No such process
