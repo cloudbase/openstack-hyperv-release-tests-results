@@ -1,0 +1,34 @@
+Site keystone disabled.
+To activate the new configuration, you need to run:
+  service apache2 reload
+ * Stopping web server apache2
+ * 
+ * Starting web server apache2
+ * 
+Signal container-updater  pid: 13435  signal: 15
+Signal account-auditor  pid: 13436  signal: 15
+Signal object-replicator  pid: 13437  signal: 15
+Signal container-sync  pid: 13438  signal: 15
+Signal container-replicator  pid: 13439  signal: 15
+Signal object-auditor  pid: 13440  signal: 15
+No object-expirer running
+Signal container-auditor  pid: 13441  signal: 15
+No container-server running
+No object-server running
+Signal account-reaper  pid: 13444  signal: 15
+No proxy-server running
+Signal account-replicator  pid: 13446  signal: 15
+Signal object-updater  pid: 13447  signal: 15
+No container-reconciler running
+No account-server running
+container-updater (13435) appears to have stopped
+account-auditor (13436) appears to have stopped
+object-replicator (13437) appears to have stopped
+container-auditor (13441) appears to have stopped
+container-replicator (13439) appears to have stopped
+object-auditor (13440) appears to have stopped
+account-replicator (13446) appears to have stopped
+account-reaper (13444) appears to have stopped
+container-sync (13438) appears to have stopped
+object-updater (13447) appears to have stopped
+tgt stop/waiting
