@@ -1,0 +1,35 @@
+Site keystone disabled.
+To activate the new configuration, you need to run:
+  service apache2 reload
+ * Stopping web server apache2
+ * 
+ * Starting web server apache2
+ * 
+Signal container-updater  pid: 17323  signal: 15
+Signal account-auditor  pid: 17324  signal: 15
+Signal object-replicator  pid: 17325  signal: 15
+Signal container-sync  pid: 17326  signal: 15
+Signal container-replicator  pid: 17327  signal: 15
+Signal object-auditor  pid: 17328  signal: 15
+No object-expirer running
+Signal container-auditor  pid: 17329  signal: 15
+No container-server running
+No object-server running
+Signal account-reaper  pid: 17332  signal: 15
+No proxy-server running
+Signal account-replicator  pid: 17334  signal: 15
+Signal object-updater  pid: 17335  signal: 15
+No container-reconciler running
+No account-server running
+container-updater (17323) appears to have stopped
+account-auditor (17324) appears to have stopped
+object-replicator (17325) appears to have stopped
+container-replicator (17327) appears to have stopped
+object-auditor (17328) appears to have stopped
+container-auditor (17329) appears to have stopped
+account-replicator (17334) appears to have stopped
+account-reaper (17332) appears to have stopped
+container-sync (17326) appears to have stopped
+object-updater (17335) appears to have stopped
+tgt stop/waiting
+  Logical volume "volume-8694f832-7466-4dac-b7e3-023880f85ee7" successfully removed

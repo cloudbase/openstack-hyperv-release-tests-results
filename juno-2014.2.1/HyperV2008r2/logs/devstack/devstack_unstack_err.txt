@@ -1,0 +1,6 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+pkill: killing pid 28549 failed: Operation not permitted
+pkill: killing pid 28554 failed: Operation not permitted
+tgtadm: failed to send request hdr to tgt daemon, Transport endpoint is not connected
+stop: Unknown instance: 
+/home/cloudbase/devstack/lib/neutron: line 687:  2980 Killed                  sudo pkill -9 -f neutron-ns-metadata-proxy
